@@ -4,3 +4,4 @@ use warnings;
 use feature qw(say);
 
 say "Hello xtetsuji!";
+say "こんにちは、xtetsuji さん";
