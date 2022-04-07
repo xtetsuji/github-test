@@ -1,0 +1,9 @@
+name: Check Perl Scripts
+on: push
+
+jobs:
+  build:
+    name: Check greeting.pl
+    runs-on: ubuntu-latest
+    steps:
+      - run: perl -wc greeting.pl
